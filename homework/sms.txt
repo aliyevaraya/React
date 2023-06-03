@@ -1,8 +1,4 @@
-import "./App.css";
-import Users from "./components/Users"
-
-function App() {
-  const data=[
+const data=[
     {
         id:1,
         username: "smone",
@@ -10,7 +6,7 @@ function App() {
         city: "smwhere"
     },
     {
-        id:0,
+        id:1,
         username: "smone",
         email: "smone@gmail.com",
         city: "smwhere"
@@ -46,11 +42,3 @@ function App() {
         city: "everywhere"
     }
 ]
-  return (
-    <div className="App">
-      <Users data={data}/>
-    </div>
-  );
-}
-
-export default App;

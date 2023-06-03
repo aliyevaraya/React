@@ -5,8 +5,7 @@ const Users = ({ data }) => {
   return (
     <div className="cards">
       {data.map((obj) => {
-        return <User
-         key={obj.id} obj={obj} />;
+        return <User key={obj.id} obj={obj} />;
       })}
     </div>
   );
