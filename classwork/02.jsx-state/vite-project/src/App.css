@@ -1,0 +1,14 @@
+.cards{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 3rem;
+    text-align: center;
+}
+.card{
+    width: 250px;
+    padding: 30px 5px;
+    border: 1px dotted;
+}
